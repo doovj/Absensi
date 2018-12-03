@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\asyaky\.android\build-cache\cf1a7ffbfce874b908a384ce420c00708b3e8515\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\asyaky\AndroidStudioProjects\AbsensiUnsil2\app\build\intermediates\pre-dexed\debug\classes_efecdf9a039808ba6cdbdc87518d7fbe2a7d38f6.jar" />
+    </item>
+
+</items>

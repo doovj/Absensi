@@ -1,0 +1,7 @@
+#Sat Dec 16 18:32:32 ICT 2017
+base.0=C\:\\Users\\asyaky\\AndroidStudioProjects\\AbsensiUnsil2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\asyaky\\AndroidStudioProjects\\AbsensiUnsil2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+base.1=C\:\\Users\\asyaky\\AndroidStudioProjects\\AbsensiUnsil2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+file.0=C\:\\Users\\asyaky\\AndroidStudioProjects\\AbsensiUnsil2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes2.dex

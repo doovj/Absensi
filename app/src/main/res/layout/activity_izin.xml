@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.doovj.absensiunsil.IzinActivity">
+
+
+    <EditText
+        android:id="@+id/etNip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etNip"
+        android:layout_below="@+id/etNip"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/etTanggalmulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tanggal mulai izin"
+        android:inputType="date"
+        android:layout_below="@+id/etNama"
+        android:layout_alignStart="@+id/etNama"
+        android:layout_marginTop="39dp" />
+
+    <EditText
+        android:id="@+id/etTanggalberakhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:hint="Tanggal berakhir izin"
+        android:inputType="date"
+        android:layout_below="@+id/etTanggalmulai"
+        android:layout_alignStart="@+id/etTanggalmulai" />
+
+    <EditText
+        android:id="@+id/etKeterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etTanggalberakhir"
+        android:layout_below="@+id/etTanggalberakhir"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Keterangan"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/BtIzin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etKeterangan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Izin" />
+
+    <ProgressBar
+        android:id="@+id/loadingizin"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etKeterangan"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
